@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" charset="utf-8"/>
+	<title>Crystals Collector</title>
+</head>
+
+<body>
+<img id ="diamond" src="assets/images/diamond.png">
+<div class="title">
+	<h1 class="text-center">
+		CRYSTALS
+		<br>
+		COLLECTOR
+		<br>
+	</h1>
+</div>
+<!-- <img id ="diamond" src="assets/images/diamond.png"> -->
+	<div id="instructions" class="text-center">
+		<p>You will be given a random number at the start of the game.</p>
+		<br>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<br>
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+		<br>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<br>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>
+	<div id="targetScore" class="text-center"></div>
+	<div id="scoreTab" class="text-center container">
+		<div class="row">
+			<div>WINS : <div id="wins">0</div></div>
+		</div>
+		<div class="row">
+			<div>LOSSES : <div id="losses">0</div></div>
+		</div>
+		<div id="score">   </div>
+	</div>
+<div class="container">
+	<div class="text-center row">
+		<!-- <button id="crystal-1" class="crystal btn btn-default"> --><img id="crystal-1" class="crystal" src="assets/images/crystal-1.jpg" alt="#"><!-- </button> -->
+		<!-- <button id="crystal-2" class="crystal btn btn-default"> --><img id="crystal-2" class="crystal" src="assets/images/crystal-2.jpg" alt="#"><!-- </button> -->
+		<!-- <button id="crystal-3" class="crystal btn btn-default"> --><img id="crystal-3" class="crystal" src="assets/images/crystal-3.jpg" alt="#"><!-- </button> -->
+		<!-- <button id="crystal-4" class="crystal btn btn-default"> --><img id="crystal-4" class="crystal" src="assets/images/crystal-4.jpg" alt="#"><!-- </button> -->
+	</div>
+</div>
+	<br>
+<div id="totalDiv" class="text-center">
+	<div id="totalScoreHead">TOTAL SCORE:</div>
+	<div id="totalScore">0</div>
+</div>
+</body>
+</html>
